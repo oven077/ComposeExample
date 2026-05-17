@@ -1,0 +1,18 @@
+# Авто‑нормализация концов строк на коммите; checkout — по платформе
+* text=auto
+
+# Скрипты и свойства Gradle
+*.gradle text
+*.gradle.kts text
+
+# Windows batch всегда CRLF (важно для gradlew.bat)
+*.bat text eol=crlf
+
+# Оболочка — LF
+*.sh text eol=lf
+
+# APK/packaged resources как бинарники
+*.apk binary
+*.aab binary
+*.jar binary
+*.webp binary
