@@ -1,58 +1,17 @@
-# Gradle
-.gradle/
-**/build/
-
-# Local SDK path и прочая машинно‑локальная конфигурация
-local.properties
-
-# Android Studio / IntelliJ IDEA
-.idea/
 *.iml
-*.iws
-
-# Выход сборки Android
-*.apk
-*.aar
-*.ap_
-*.aab
-*.dex
-
-# Отчёты Lint (генерируемые каталоги)
-**/lint/intermediates/
-**/lint/generated/
-**/lint/outputs/
-**/lint/tmp/
-
-# NDK / CMake
-.externalNativeBuild/
-.cxx/
-
-# Screenshots профилировщика
-captures/
-
-# Kotlin (кэши компилятора)
-.kotlin/
-
-# Загрузки приложения через Android Studio
-app/release/
-
-# Бэкапы
-*.bak
-*.swp
-
-# Heap dumps JVM / Android Profiler
-*.hprof
-
-# Keystore и файлы подписи (не должны попадать в репозиторий)
-*.jks
-*.keystore
-
-# Эмулятор snapshots
-.snapshots/
-
-# macOS
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
-
-# Windows
-Thumbs.db
-desktop.ini
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.apk
+*.aab
